@@ -1,0 +1,89 @@
+.list {
+    font-size: larger;
+}
+
+.list-hak-pasien {
+    margin-bottom: 10rem;
+}
+
+.nav-link:hover {
+    font-weight: 500;
+}
+
+footer {
+    color: white;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin-top: auto;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.subjudul {
+    padding-top: 6%;
+}
+
+@media (max-width: 992px) {
+    .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .row-hak-pasien {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row-tgjwb {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-6 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .home img {
+        width: 350px;
+    }
+
+
+    .tata-tertib .container {
+        height: fit-content !important;
+        margin-bottom: 50px;
+    }
+
+    .list {
+        font-size: medium;
+    }
+
+    .subjudul {
+        margin-bottom: 0 !important;
+        padding-top: 20%;
+    }
+
+    .w-75 {
+        width: 100% !important;
+    }
+
+    .w-25 {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .w-25 img {
+        width: 100px;
+    }
+}
