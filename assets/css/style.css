@@ -10,7 +10,19 @@
 }
 
 .hero {
-  padding-left: 8% !important;
+  padding-left: 5% !important;
+}
+
+.hero p {
+  text-align: justify;
+}
+
+.hero-2 p {
+  text-align: justify;
+}
+
+.teks-hero {
+  text-align: justify;
 }
 
 .nav-link:hover {
@@ -24,6 +36,7 @@
   border-width: 4px;
   overflow: hidden;
   transition: 0.3s ease-in-out;
+  opacity: 0;
 }
 
 .card:hover {
@@ -71,6 +84,10 @@ footer {
   padding-left: 60px;
 }
 
+.menu .container {
+  margin-bottom: 12%;
+}
+
 @media (max-width: 1200px) {
   .row {
     display: flex;
@@ -83,7 +100,7 @@ footer {
     padding-right: 3% !important;
     margin-top: 10%;
   }
-  
+
   .hero-2 {
     width: 100%;
     padding-left: 3% !important;
@@ -98,7 +115,7 @@ footer {
   .home .img-logo {
     width: 200px;
   }
-  
+
   .home .denah-img {
     width: 350px;
   }
@@ -106,7 +123,7 @@ footer {
   .home .img-jam {
     width: 200px;
   }
-  
+
   .submenu {
     padding: 0 !important;
   }
@@ -129,10 +146,15 @@ footer {
   }
 
   .hero h5 {
-    font-size: small;
+    font-size: medium;
   }
 
-  .swiper-button-prev, .swiper-button-next {
+  .jam {
+    font-size: smaller !important;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
     display: none;
   }
 }
