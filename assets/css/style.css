@@ -141,16 +141,16 @@ footer {
     font-size: 50px;
   }
 
-  .logo {
+  /* .logo {
     margin-right: 20px;
-  }
+  } */
 
   .hero h5 {
     font-size: medium;
   }
 
   .jam {
-    font-size: smaller !important;
+    font-size: 12px !important;
   }
 
   .swiper-button-prev,
