@@ -158,3 +158,17 @@ footer {
     display: none;
   }
 }
+
+@media (min-width: 1201px) and (max-width: 1399px) {
+  .denah-img {
+    width: 86%;
+  }
+
+  .hero-2 {
+    padding-right: 0;
+  }
+
+  .hero-2 h2 {
+    font-size: x-large;
+  }
+}
